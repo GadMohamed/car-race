@@ -58,6 +58,36 @@ h2{padding-top: 30px;}
     overflow: hidden;
 }
 
+#restart_div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    background-color: #292929;
+    display: none;
+    text-align: center;
+}
+
+#restart_div h1  
+{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+
+.restart-btn
+{
+    background-color: aqua;
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    margin-top: 30%;
+}
+
 .line
 {
     position: absolute;
@@ -92,7 +122,7 @@ h2{padding-top: 30px;}
     border-radius: 6px;
 }
 
-#main-car
+#car
 {
     bottom: 8%;
     right: 15%;

@@ -70,14 +70,19 @@
 
     <div class="score" id="score">0</div>
 
-    <div class=" container">
+    <div class=" container" id="container">
+        <div class="restart" id="restart_div">
+            <h1> Game Over !  </h1>
+            <h3> Press Enter ? Try Again </h3>
+            <button class="restart-btn" id="restart"> Restart </button>
+        </div>
 
         <div class="line" id="line1"></div>
         <div class="line" id="line2"></div>
         <div class="line" id="line3"></div>
 
 
-        <div class="car" id="main-car">
+        <div class="car" id="car">
 
             <div class="f-glass"></div>
             <div class="b-glass"></div>
@@ -131,8 +136,14 @@
     </div>
     
     
-    
 
+<audio id="audio">
+  <source src="Popular Epic Win Sound Effects (HD).mp3" type="audio/mp3">
+</audio>
+
+<audio id="audio_game_over">
+  <source src="2.mp3" type="audio/mp3">
+</audio>
 
 
 
